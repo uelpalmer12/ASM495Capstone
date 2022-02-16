@@ -37,7 +37,7 @@
 	// doWork();
 </script>
 
-<h1>Welcome to Avena Web Demo 1</h1>
+<h1>Welcome to Avena Web Demo 1 test test test </h1>
 
 <form>
 	<select bind:value={selected}>
