@@ -28,7 +28,8 @@
 			}
 			lastTime = msg.time;
 
-			value = msg.value;
+			
+			value = Math.round(msg.value * 100) / 100;
 			units = msg.units;
 		}
 	}

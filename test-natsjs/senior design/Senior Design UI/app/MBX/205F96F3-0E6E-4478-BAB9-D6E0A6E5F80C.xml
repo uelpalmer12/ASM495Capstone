@@ -1,0 +1,326 @@
+﻿<mockup version="5.3" minAllowVersion="5.3" ID="205F96F3-0E6E-4478-BAB9-D6E0A6E5F80C" platform="MtWeb" defaultW="1100" defaultH="6000" measureW="1100" measureH="6000" mobileScreenScale="0">
+  <controls controlCount="37">
+    <control controlID="1A81874F-3067-446B-BF6F-D18823BB55D9" controlTypeID="Icon" x="29" y="68" w="250" h="250" zOrder="0">
+      <color>4294967295</color>
+      <icon>
+        <ID/>
+        <iconFontName>jdIonicons</iconFontName>
+        <iconCode>62639</iconCode>
+      </icon>
+      <URL>D3659DA94B7086D3937798AA3485AE32.svg</URL>
+    </control>
+    <control controlID="DDF94C2C-E45E-4588-ABD5-188759EC981C" controlTypeID="Icon" x="29" y="367" w="250" h="250" zOrder="1">
+      <color>4294967295</color>
+      <icon>
+        <ID/>
+        <iconFontName>jdIonicons</iconFontName>
+        <iconCode>62639</iconCode>
+      </icon>
+      <URL>D3659DA94B7086D3937798AA3485AE32.svg</URL>
+    </control>
+    <control controlID="42A21010-3325-4442-BFFD-E547C29FDF77" controlTypeID="Icon" x="338" y="367" w="250" h="250" zOrder="2">
+      <color>4294967295</color>
+      <icon>
+        <ID/>
+        <iconFontName>jdIonicons</iconFontName>
+        <iconCode>62639</iconCode>
+      </icon>
+      <URL>D3659DA94B7086D3937798AA3485AE32.svg</URL>
+    </control>
+    <control controlID="D6084420-A609-43CF-85A2-26BBA974A07A" controlTypeID="Icon" x="338" y="68" w="250" h="250" zOrder="3">
+      <color>4294967295</color>
+      <icon>
+        <ID/>
+        <iconFontName>jdIonicons</iconFontName>
+        <iconCode>62639</iconCode>
+      </icon>
+      <URL>D3659DA94B7086D3937798AA3485AE32.svg</URL>
+    </control>
+    <control controlID="4973E19E-201B-4006-B164-EC875C9B43A6" controlTypeID="Icon" x="20" y="20" w="38" h="38" zOrder="4">
+      <color>4294967295</color>
+      <links eventType="AtClick" animate="AmNone" animateAutoDelay="0" animateDuration="500">
+        <link targetPageID="738197B0-4316-4712-AF3D-159269BE6CE3" linkType="ltPageLink" isApplyIncludePage="False" title="New+Vehicle+Profile+If+GPS">
+          <area shape="0" alt="" ID="{D66C29EF-9648-4989-8283-8BA7AD888F06}" coords="(0,0,38,38)"/>
+        </link>
+      </links>
+      <icon>
+        <ID/>
+        <iconFontName>jdIonicons</iconFontName>
+        <iconCode>62154</iconCode>
+      </icon>
+      <URL>D95E480717200F895E41DB6E5B869596.svg</URL>
+    </control>
+    <control controlID="26BC9013-DECB-4471-A1E5-15A735F8EA09" controlTypeID="Label" x="377" y="20" w="171" h="27" zOrder="5">
+      <font family="Modern" displayName="Modern_%26_Bold" postScript="" weightStyle="Bold" weight="700" isBold="True" isItalic="False" useDefaultFontFamily="False"/>
+      <text>John+Deere+8370R</text>
+      <textColor>4294967295</textColor>
+      <textSize>20</textSize>
+      <lineSpacing>0</lineSpacing>
+      <textStyles>[fsBold]</textStyles>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="DAC7925D-7CA8-473B-87E5-747DE63F4446" controlTypeID="Label" x="661" y="378" w="223" h="32" zOrder="6">
+      <font family="Modern" displayName="Modern_%26_Bold" postScript="" weightStyle="Bold" weight="700" isBold="True" isItalic="False" useDefaultFontFamily="False"/>
+      <text>System+Information</text>
+      <textColor>4294967295</textColor>
+      <textSize>24</textSize>
+      <lineSpacing>0</lineSpacing>
+      <textStyles>[fsBold]</textStyles>
+      <useDefaultTextSize>False</useDefaultTextSize>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="55292505-50F2-42F6-A603-933D224E1DCE" controlTypeID="Label" x="648" y="440" w="102" h="27" zOrder="7">
+      <font family="Modern" displayName="Modern_%26_Bold" postScript="" weightStyle="Bold" weight="700" isBold="True" isItalic="False" useDefaultFontFamily="False"/>
+      <text>PTO+Status</text>
+      <textColor>4294967295</textColor>
+      <textSize>20</textSize>
+      <lineSpacing>0</lineSpacing>
+      <textStyles>[fsBold]</textStyles>
+      <useDefaultTextSize>False</useDefaultTextSize>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="12817F7B-13A6-4535-9829-6DEADCE64070" controlTypeID="Label" x="648" y="491" w="120" h="27" zOrder="8">
+      <font family="Modern" displayName="Modern_%26_Bold" postScript="" weightStyle="Bold" weight="700" isBold="True" isItalic="False" useDefaultFontFamily="False"/>
+      <text>Hydraulic+R1</text>
+      <textColor>4294967295</textColor>
+      <textSize>20</textSize>
+      <lineSpacing>0</lineSpacing>
+      <textStyles>[fsBold]</textStyles>
+      <useDefaultTextSize>False</useDefaultTextSize>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="341BC986-8F51-4EF8-AF42-BD445B53C112" controlTypeID="Label" x="648" y="548" w="120" h="27" zOrder="9">
+      <font family="Modern" displayName="Modern_%26_Bold" postScript="" weightStyle="Bold" weight="700" isBold="True" isItalic="False" useDefaultFontFamily="False"/>
+      <text>Hydraulic+R2</text>
+      <textColor>4294967295</textColor>
+      <textSize>20</textSize>
+      <lineSpacing>0</lineSpacing>
+      <textStyles>[fsBold]</textStyles>
+      <useDefaultTextSize>False</useDefaultTextSize>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="B59BD594-6CE6-4B58-95E9-383208B2CE56" controlTypeID="Label" x="648" y="605" w="120" h="27" zOrder="10">
+      <font family="Modern" displayName="Modern_%26_Bold" postScript="" weightStyle="Bold" weight="700" isBold="True" isItalic="False" useDefaultFontFamily="False"/>
+      <text>Hydraulic+R3</text>
+      <textColor>4294967295</textColor>
+      <textSize>20</textSize>
+      <lineSpacing>0</lineSpacing>
+      <textStyles>[fsBold]</textStyles>
+      <useDefaultTextSize>False</useDefaultTextSize>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="6AAC2C38-0D78-4CD2-B495-22C497FBEC96" controlTypeID="CompositeComboBox" x="54" y="318" w="200" h="24" zOrder="11">
+      <groupChildrenDescriptors>
+        <control controlID="F606C997-D24C-4381-B6C7-BE0ECDB8C971" controlTypeID="TextInput" x="0" y="0" w="177" h="24" zOrder="0">
+          <locked>True</locked>
+          <canMove>False</canMove>
+          <alias>input</alias>
+          <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+          <text>Engine+Speed</text>
+          <lineSpacing>0</lineSpacing>
+          <selectedIndex>-1</selectedIndex>
+        </control>
+        <control controlID="F20084B5-042E-45EE-9942-EE47D9EA484E" controlTypeID="Button" x="176" y="0" w="24" h="24" zOrder="1">
+          <locked>True</locked>
+          <canMove>False</canMove>
+          <alias>button</alias>
+          <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+          <lineSpacing>0</lineSpacing>
+          <selectedIndex>-1</selectedIndex>
+          <radius>0</radius>
+        </control>
+        <control controlID="25AAA33C-3947-4AF1-B4EE-6B4A8C5FF2B9" controlTypeID="List" x="0" y="24" w="200" h="26" zOrder="2">
+          <isShow>False</isShow>
+          <canMove>False</canMove>
+          <alias>dropDown</alias>
+          <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+          <text>Engine+Speed</text>
+          <textSize>14</textSize>
+          <lineSpacing>0</lineSpacing>
+          <itemHeight>24</itemHeight>
+          <interlaceColor>4294967295</interlaceColor>
+        </control>
+      </groupChildrenDescriptors>
+      <baseHeight>24</baseHeight>
+      <font family="Segoe+UI"/>
+      <textSize>14</textSize>
+    </control>
+    <control controlID="14910DC6-1146-46C5-AA39-BEA9BA1DF655" controlTypeID="CompositeComboBox" x="54" y="622" w="200" h="24" zOrder="12">
+      <groupChildrenDescriptors>
+        <control controlID="2388E548-911D-4AC9-852A-61789FF5A8DF" controlTypeID="TextInput" x="0" y="0" w="177" h="24" zOrder="0">
+          <locked>True</locked>
+          <canMove>False</canMove>
+          <alias>input</alias>
+          <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+          <text>Wheel+Speed</text>
+          <lineSpacing>0</lineSpacing>
+          <selectedIndex>-1</selectedIndex>
+        </control>
+        <control controlID="A836E84D-1D91-41AF-B85D-6ADE2C2669B8" controlTypeID="Button" x="176" y="0" w="24" h="24" zOrder="1">
+          <locked>True</locked>
+          <canMove>False</canMove>
+          <alias>button</alias>
+          <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+          <lineSpacing>0</lineSpacing>
+          <selectedIndex>-1</selectedIndex>
+          <radius>0</radius>
+        </control>
+        <control controlID="3CE7852A-E56F-484E-B407-17A3CAF971DA" controlTypeID="List" x="0" y="24" w="200" h="26" zOrder="2">
+          <isShow>False</isShow>
+          <canMove>False</canMove>
+          <alias>dropDown</alias>
+          <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+          <text>Wheel+Speed</text>
+          <textSize>14</textSize>
+          <lineSpacing>0</lineSpacing>
+          <itemHeight>24</itemHeight>
+          <interlaceColor>4294967295</interlaceColor>
+        </control>
+      </groupChildrenDescriptors>
+      <baseHeight>24</baseHeight>
+      <font family="Segoe+UI"/>
+      <textSize>14</textSize>
+    </control>
+    <control controlID="41C98A1D-F447-4DB3-BBC1-0E63FEFF5A34" controlTypeID="CompositeComboBox" x="366" y="622" w="200" h="24" zOrder="13">
+      <groupChildrenDescriptors>
+        <control controlID="61B19D9D-96B8-4406-8E72-5DC9B29FAE3C" controlTypeID="TextInput" x="0" y="0" w="177" h="24" zOrder="0">
+          <locked>True</locked>
+          <canMove>False</canMove>
+          <alias>input</alias>
+          <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+          <text>Wheel+Slip</text>
+          <lineSpacing>0</lineSpacing>
+          <selectedIndex>-1</selectedIndex>
+        </control>
+        <control controlID="8B2A6F59-2B8D-42B5-AED9-DD6133976AE3" controlTypeID="Button" x="176" y="0" w="24" h="24" zOrder="1">
+          <locked>True</locked>
+          <canMove>False</canMove>
+          <alias>button</alias>
+          <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+          <lineSpacing>0</lineSpacing>
+          <selectedIndex>-1</selectedIndex>
+          <radius>0</radius>
+        </control>
+        <control controlID="1615FBF0-06A5-4370-A33E-69AA14A9BCBD" controlTypeID="List" x="0" y="24" w="200" h="26" zOrder="2">
+          <isShow>False</isShow>
+          <canMove>False</canMove>
+          <alias>dropDown</alias>
+          <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+          <text>Wheel+Slip</text>
+          <textSize>14</textSize>
+          <lineSpacing>0</lineSpacing>
+          <itemHeight>24</itemHeight>
+          <interlaceColor>4294967295</interlaceColor>
+        </control>
+      </groupChildrenDescriptors>
+      <baseHeight>24</baseHeight>
+      <font family="Segoe+UI"/>
+      <textSize>14</textSize>
+    </control>
+    <control controlID="9C3B2BFC-0072-4F27-8EDB-39B625A62993" controlTypeID="CompositeComboBox" x="366" y="318" w="200" h="24" zOrder="14">
+      <groupChildrenDescriptors>
+        <control controlID="744C2187-3A24-4EC4-881E-387D644B5984" controlTypeID="TextInput" x="0" y="0" w="177" h="24" zOrder="0">
+          <locked>True</locked>
+          <canMove>False</canMove>
+          <alias>input</alias>
+          <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+          <text>Fuel+Consumption</text>
+          <lineSpacing>0</lineSpacing>
+          <selectedIndex>-1</selectedIndex>
+        </control>
+        <control controlID="04F1EF57-3E19-4CFA-A19A-9E5978703010" controlTypeID="Button" x="176" y="0" w="24" h="24" zOrder="1">
+          <locked>True</locked>
+          <canMove>False</canMove>
+          <alias>button</alias>
+          <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+          <lineSpacing>0</lineSpacing>
+          <selectedIndex>-1</selectedIndex>
+          <radius>0</radius>
+        </control>
+        <control controlID="E329DBFE-A64F-47CE-9988-066EB58B1534" controlTypeID="List" x="0" y="24" w="200" h="26" zOrder="2">
+          <isShow>False</isShow>
+          <canMove>False</canMove>
+          <alias>dropDown</alias>
+          <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+          <text>Fuel+Consumption</text>
+          <textSize>14</textSize>
+          <lineSpacing>0</lineSpacing>
+          <itemHeight>24</itemHeight>
+          <interlaceColor>4294967295</interlaceColor>
+        </control>
+      </groupChildrenDescriptors>
+      <baseHeight>24</baseHeight>
+      <font family="Segoe+UI"/>
+      <textSize>14</textSize>
+    </control>
+    <control controlID="6EC825DB-671A-4B26-AFEB-5319132EC462" controlTypeID="Icon" x="840" y="443" w="24" h="24" zOrder="15">
+      <color>4294967295</color>
+      <icon>
+        <ID/>
+        <iconFontName>jdIonicons</iconFontName>
+        <iconCode>62324</iconCode>
+      </icon>
+      <URL>9779785199034A1B7742E552E44BA325.svg</URL>
+    </control>
+    <control controlID="FD54A0A4-1285-4ED4-9C37-1572A70B61D1" controlTypeID="Shape" x="792" y="490" w="120" h="28" zOrder="16">
+      <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <textSize>14</textSize>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="E3D7D3CA-467D-478F-B54D-8CE875690BE9" controlTypeID="Shape" x="792" y="548" w="120" h="28" zOrder="17">
+      <color>4288256409</color>
+      <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <textColor>4284900966</textColor>
+      <textSize>14</textSize>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="75EBBBBC-EF44-40F7-9528-30179CB1AAEF" controlTypeID="Shape" x="792" y="605" w="120" h="28" zOrder="18">
+      <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <textSize>14</textSize>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="3FAC68F2-4ACA-4797-A8E3-B58B6D83ABBE" controlTypeID="Shape" x="792" y="490" w="72" h="28" zOrder="19">
+      <color>4288256409</color>
+      <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <textSize>14</textSize>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="CCD37FD2-46A0-432B-8A5F-C3840AEDAA7C" controlTypeID="Label" x="802" y="494" w="15" h="19" zOrder="20">
+      <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <text>58</text>
+      <lineSpacing>0</lineSpacing>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="AE0671CE-3A60-4818-AC0E-6FE799728120" controlTypeID="Label" x="802" y="552" w="23" h="19" zOrder="21">
+      <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <text>100</text>
+      <lineSpacing>0</lineSpacing>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="C1EDF6B0-E44C-42B1-8C3F-87B938955D7A" controlTypeID="Label" x="802" y="609" w="8" h="19" zOrder="22">
+      <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <text>0</text>
+      <lineSpacing>0</lineSpacing>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="FD1FCEF4-4477-4037-824B-B96ADCC1AF35" controlTypeID="Shape" x="645" y="85" w="250" h="250" zOrder="23">
+      <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <textSize>14</textSize>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="7C93367A-957F-4E84-B57F-7AA3139220CE" controlTypeID="Icon" x="716" y="156" w="108" h="108" zOrder="24">
+      <icon>
+        <ID/>
+        <iconFontName>jdIonicons</iconFontName>
+        <iconCode>62115</iconCode>
+      </icon>
+      <URL>C533ADB09905F5D1CA692E4F82B3769A.svg</URL>
+    </control>
+  </controls>
+  <param>
+    <backgroundColor>4278229503</backgroundColor>
+    <fontSize>14</fontSize>
+    <fontFamily>Segoe+UI</fontFamily>
+    <guideLines/>
+  </param>
+</mockup>

@@ -1,0 +1,166 @@
+﻿<mockup version="5.3" minAllowVersion="5.3" ID="AF1049C0-C580-417B-9D6D-3B107D6D9BE2" platform="MtWeb" defaultW="1100" defaultH="6000" measureW="1100" measureH="6000" mobileScreenScale="0">
+  <controls controlCount="16">
+    <control controlID="30DFCBB7-BC1F-4E99-9F6A-E266CF74BE0F" controlTypeID="Icon" x="732" y="475" w="54" h="54" zOrder="0">
+      <color>4294967295</color>
+      <icon>
+        <ID/>
+        <iconFontName>jdIonicons</iconFontName>
+        <iconCode>62324</iconCode>
+      </icon>
+      <URL>9779785199034A1B7742E552E44BA325.svg</URL>
+    </control>
+    <control controlID="7B9222B4-A41A-4457-A0FD-F1505BEE065D" controlTypeID="Label" x="289" y="272" w="384" h="54" zOrder="1">
+      <font family="Modern" displayName="Modern_%26_Bold" postScript="" weightStyle="Bold" weight="700" isBold="True" isItalic="False" useDefaultFontFamily="False"/>
+      <text>Welcome+to+ISOBlue</text>
+      <textColor>4294967295</textColor>
+      <textSize>40</textSize>
+      <lineSpacing>0</lineSpacing>
+      <textStyles>[fsBold]</textStyles>
+      <useDefaultTextSize>False</useDefaultTextSize>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="2D01E530-29F0-4836-8B8E-E915B5146D8D" controlTypeID="CompositeComboBox" x="338" y="378" w="236" h="40" zOrder="2">
+      <groupChildrenDescriptors>
+        <control controlID="317486BE-A2FB-47AB-877B-D7BAB923EEBB" controlTypeID="TextInput" x="0" y="0" w="213" h="40" zOrder="0">
+          <locked>True</locked>
+          <canMove>False</canMove>
+          <alias>input</alias>
+          <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+          <text>John+Deere+8370R</text>
+          <lineSpacing>0</lineSpacing>
+          <selectedIndex>-1</selectedIndex>
+        </control>
+        <control controlID="67F0FAA5-2F68-497E-AC7B-0B9F4C2C288F" controlTypeID="Button" x="212" y="0" w="24" h="40" zOrder="1">
+          <locked>True</locked>
+          <canMove>False</canMove>
+          <alias>button</alias>
+          <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+          <lineSpacing>0</lineSpacing>
+          <selectedIndex>-1</selectedIndex>
+          <radius>0</radius>
+        </control>
+        <control controlID="2640FE59-273C-44F5-A5ED-7F3DDFBE2B2F" controlTypeID="List" x="0" y="40" w="236" h="202" zOrder="2">
+          <isShow>False</isShow>
+          <canMove>False</canMove>
+          <alias>dropDown</alias>
+          <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+          <text>John+Deere+8370R%0D%0AJohn+Deere+8370+Planting%0D%0ACase+Magnum+310%0D%0ANew+Holland+MFWD%0D%0A%0D%0A</text>
+          <textSize>14</textSize>
+          <lineSpacing>0</lineSpacing>
+          <itemHeight>40</itemHeight>
+          <interlaceColor>4294967295</interlaceColor>
+        </control>
+      </groupChildrenDescriptors>
+      <baseHeight>40</baseHeight>
+      <font family="Segoe+UI"/>
+      <textSize>14</textSize>
+    </control>
+    <control controlID="18753D86-3DBF-4B2E-BF07-7C9D312791A5" controlTypeID="Label" x="329" y="336" w="304" h="27" zOrder="3">
+      <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False" useDefaultFontFamily="False"/>
+      <text>Choose+your+vehicle+profile+below+</text>
+      <textColor>4294967295</textColor>
+      <textSize>20</textSize>
+      <lineSpacing>0</lineSpacing>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="1231FD60-71C4-44E6-A819-6A8654156D49" controlTypeID="Icon" x="852" y="475" w="54" h="54" zOrder="4">
+      <color>4294967295</color>
+      <icon>
+        <ID/>
+        <iconFontName>jdIonicons</iconFontName>
+        <iconCode>62324</iconCode>
+      </icon>
+      <URL>9779785199034A1B7742E552E44BA325.svg</URL>
+    </control>
+    <control controlID="35DA5ADD-6167-4E45-B598-9EF7A08C6360" controlTypeID="Icon" x="584" y="378" w="40" h="40" zOrder="5">
+      <color>4294967295</color>
+      <links eventType="AtClick" animate="AmNone" animateAutoDelay="0" animateDuration="500">
+        <link targetPageID="0AFDC769-F4E8-413C-9055-7BDF5712E6ED" linkType="ltPageLink" isApplyIncludePage="False" title="New+Vehicle+Profile">
+          <area shape="0" alt="" ID="{2805C350-9740-4D2D-8E6B-9CF451389C5A}" coords="(0,0,40,40)"/>
+        </link>
+      </links>
+      <icon>
+        <ID/>
+        <iconFontName>jdIonicons</iconFontName>
+        <iconCode>61974</iconCode>
+      </icon>
+      <URL>909563FAFE25D2BCBB465D4435A7FA63.svg</URL>
+    </control>
+    <control controlID="8EA5A6A9-7F7E-4F51-8A92-DC3830601930" controlTypeID="Label" x="738" y="475" w="120" h="54" zOrder="6">
+      <color>4294967295</color>
+      <links eventType="AtClick" animate="AmNone" animateAutoDelay="0" animateDuration="500">
+        <link targetPageID="B79359C2-18B7-4D92-AA40-26AF31963F90" linkType="ltPageLink" isApplyIncludePage="False" title="Main+Gauge+Screen">
+          <area shape="0" alt="" ID="{7B93B60C-61FF-4923-BA4B-0B183536A50F}" coords="(0,0,120,54)"/>
+        </link>
+      </links>
+      <font family="Modern" displayName="Modern_%26_Bold" postScript="" weightStyle="Bold" weight="700" isBold="True" isItalic="False" useDefaultFontFamily="False"/>
+      <text>START</text>
+      <textColor>4278229503</textColor>
+      <textSize>40</textSize>
+      <textAlign>HaCenter</textAlign>
+      <lineSpacing>0</lineSpacing>
+      <textStyles>[fsBold]</textStyles>
+      <useDefaultTextSize>False</useDefaultTextSize>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="97D0A9AD-4D92-4B67-937C-6CA39B275279" controlTypeID="Icon" x="408" y="89" w="50" h="50" zOrder="7">
+      <icon>
+        <ID/>
+        <iconFontName>jdIonicons</iconFontName>
+        <iconCode>62336</iconCode>
+      </icon>
+      <URL>76118A001D7B98003E1AE08ACA6CEB2B.svg</URL>
+    </control>
+    <control controlID="5C890040-73F2-437A-8F0B-099453B01B03" controlTypeID="Icon" x="503" y="184" w="50" h="50" zOrder="8">
+      <icon>
+        <ID/>
+        <iconFontName>jdIonicons</iconFontName>
+        <iconCode>62328</iconCode>
+      </icon>
+      <URL>B0158577C88FD258B1EF1C1172807753.svg</URL>
+    </control>
+    <control controlID="466F8C73-3005-41C7-8260-D78E4DFAD90D" controlTypeID="Icon" x="503" y="89" w="50" h="50" zOrder="9">
+      <icon>
+        <ID/>
+        <iconFontName>jdIonicons</iconFontName>
+        <iconCode>61949</iconCode>
+      </icon>
+      <URL>8CB083ACED78654A6840CA85FD983FF7.svg</URL>
+    </control>
+    <control controlID="839ED5F1-1FB9-48F4-9FED-46AB07D66168" controlTypeID="Icon" x="408" y="184" w="50" h="50" zOrder="10">
+      <icon>
+        <ID/>
+        <iconFontName>jdIonicons</iconFontName>
+        <iconCode>61758</iconCode>
+      </icon>
+      <URL>E33355073587308CD77F49AD22253EC2.svg</URL>
+    </control>
+    <control controlID="0409665E-BD06-4FA5-8813-06F227CC1365" controlTypeID="Line" x="389" y="166" w="175" h="1" zOrder="11">
+      <color>4294967295</color>
+      <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <textSize>32</textSize>
+      <lineSpacing>0</lineSpacing>
+      <useDefaultTextSize>False</useDefaultTextSize>
+      <selectedIndex>-1</selectedIndex>
+      <controlPoint>(88,0)</controlPoint>
+      <startPoint>(0,0)</startPoint>
+      <endPoint>(175,0)</endPoint>
+    </control>
+    <control controlID="28932FEC-AEEA-44C2-919A-395CCAA4AFE9" controlTypeID="Line" x="481" y="78" w="1" h="175" zOrder="12">
+      <color>4294967295</color>
+      <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <textSize>14</textSize>
+      <lineSpacing>0</lineSpacing>
+      <selectedIndex>-1</selectedIndex>
+      <controlPoint>(0,88)</controlPoint>
+      <startPoint>(0,1)</startPoint>
+      <endPoint>(0,175)</endPoint>
+    </control>
+  </controls>
+  <param>
+    <backgroundColor>4278229503</backgroundColor>
+    <fontSize>14</fontSize>
+    <fontFamily>Segoe+UI</fontFamily>
+    <guideLines/>
+  </param>
+</mockup>
