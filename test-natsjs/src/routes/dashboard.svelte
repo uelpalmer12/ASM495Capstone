@@ -6,7 +6,7 @@
 
 	import TextView from '../compoents/TextView.svelte';
 
-	let selected = 'ws://172.16.1.12:443';
+	let selected = 'ws://172.16.254.5:443';
 
 	 	async function doWork() {
 	 		console.log('connecting');
