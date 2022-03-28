@@ -17,10 +17,17 @@
     "eslint-plugin-svelte3": "^3.2.1",
     "prettier": "^2.4.1",
     "prettier-plugin-svelte": "^2.4.0",
+    "simple-svelte-autocomplete": "^2.3.9",
     "svelte": "^3.44.0"
   },
   "type": "module",
   "dependencies": {
-    "nats.ws": "^1.7.1"
+    "@tailwindui/vue": "^0.1.0-alpha.2",
+    "add": "^2.0.6",
+    "nats.ws": "^1.7.1",
+    "svelecte": "^3.6.0",
+    "svelte-select": "^4.4.7",
+    "svelte-suggestbox": "^1.1.1",
+    "yarn": "^1.22.18"
   }
 }
