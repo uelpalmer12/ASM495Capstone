@@ -1,3 +1,17 @@
+<script>
+	import Map from '@anoram/leaflet-svelte'
+	let options={
+	  center: [13,80],
+	  markers: [
+		{
+		  lat: 13,
+		  lng: 80
+		}
+	  ],
+	  mapID: "map"
+	}
+	</script>
+
 <style>
 	h4{
 		font-size: 400%;
@@ -18,11 +32,18 @@
 		border-width: .005%;
 		font-size: 150%;
 	}
+	.map {
+		height: 600px;
+		width: auto;
+	  }
 </style>
 
 <title>GPS Page</title>
 <body>
     <a href="/a/test">Go to debugger page</a>
     <h4>GPS Tracking</h4>
-    <a href="/">Go to Main Page</a>
+	<div class="map">
+		<Map {options} />
+	 </div>
+	<a href="/">Go to Main Page</a>
 </body>
