@@ -1,24 +1,25 @@
 <script type="javascript">
 	import { connect, JSONCodec } from 'nats.ws';
-	
+
 	export let address = '';
 	export let subject = '';
-	
-	let value;
-	let units;
+
+	let messages = []
 	let nc;
-	
-	async function doWork() {
+
+	async function connect2(address) {
 		if (nc) {
 			nc.close();
 		}
 
 		// Required step 1
 		// NOTE: This should be moved so it only happens once ... I can help later when your ready.
-		
 		nc = await connect({ servers: address });
-		
 
+		return nc;
+	}
+
+	async function subscribe(nc, subject) {
 		// create a codec
 		const jc = JSONCodec();
 
@@ -26,22 +27,21 @@
 		const s = nc.subscribe(subject);
 
 		// Required step 3
-		var lastTime = -999999;
 		for await (const m of s) {
-			let msg = jc.decode(m.data);
+			if (!pauased) {
+				let msg = jc.decode(m.data);
 
-			if (msg.time <= lastTime + 0.5) {
-				continue;
+				if (messages.length > 100) {
+					messages.pop()
+				}
+				messages = [ ...messages, msg];
 			}
-			lastTime = msg.time;
-
-			
-			value = msg.value.toFixed(2); 
-			units = msg.units;
 		}
 	}
 
-	doWork();
+	$: connect2(address).then((nc) => subscribe(nc, subject))
 </script>
 
-<p>{value} {units}</p>
+{#each messages.reverse() as msg}
+	<p>{msg.timestamp} {msg.pgn} {msg.data} {JSON.stringify(msg)} </p>
+{/each}
