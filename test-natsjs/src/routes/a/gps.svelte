@@ -1,11 +1,12 @@
 <script>
 	import Map from '@anoram/leaflet-svelte'
+	import { connect, JSONCodec } from 'nats.ws';
 	let options={
-	  center: [13,80],
+	  center: [40.423727194627745, -86.91727366329326], // 
 	  markers: [
 		{
-		  lat: 13,
-		  lng: 80
+		  lat: 40.423727194627745, // this were we need to use the nats component to make it get the location
+		  lng: -86.91727366329326
 		}
 	  ],
 	  mapID: "map"
