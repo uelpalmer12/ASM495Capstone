@@ -1,23 +1,19 @@
 <script>
-	import Map from '@anoram/leaflet-svelte'
-	import { connect, JSONCodec } from 'nats.ws';
-	let options={
-	  center: [40.423727194627745, -86.91727366329326], // 
-	  markers: [
-		{
-		  lat: 40.423727194627745, // this were we need to use the nats component to make it get the location
-		  lng: -86.91727366329326
-		}
-	  ],
-	  tilelayers : [
-      {
-        url: 'https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}',
-        attribution:
-		'Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community',
-      },
-    ],
-	  mapID: "map"
-	}
+	 import {LeafletMap, Marker, TileLayer} from 'svelte-leafletjs';
+	 import 'leaflet/dist/leaflet.css';
+
+
+const mapOptions = {
+	center: [1.364917, 103.822872],
+	zoom: 11,
+};
+const tileUrl = "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}";
+const tileLayerOptions = {
+	minZoom: 0,
+	maxZoom: 20,
+	maxNativeZoom: 19,
+	attribution: "© OpenStreetMap contributors",
+};
 	</script>
 
 <style>
@@ -51,7 +47,11 @@
     <a href="/a/test">Go to debugger page</a>
     <h4>GPS Tracking</h4>
 	<div class="map">
-		<Map {options} />
+		<LeafletMap options={mapOptions}>
+			<TileLayer url={tileUrl} options={tileLayerOptions}/>
+			<Marker latLng={[1.282375, 103.864273]}/>
+			<Marker latLng={[1.359167, 103.989441]} rotationAngle={45}/>
+		</LeafletMap>
 	 </div>
 	<a href="/">Go to Main Page</a>
 </body>
