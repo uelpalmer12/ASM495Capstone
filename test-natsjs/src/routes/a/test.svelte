@@ -1,6 +1,21 @@
 <script>
+import { connect } from 'nats.ws';
+
+import { NatsConnectionImpl } from 'nats.ws/lib/nats-base-client/nats';
+
     let name = ''
     import ListView from '../../compoents/ListView.svelte';
+
+    // let nc = connect(...);
+
+    // let a = [];
+
+    // nc.req('j1939.messages', function(msgs) => {
+    //     for msg in msgs {
+    //         a.push({ name: msgs.pgn, obj1: mgs.pgn })
+    //     }
+    // })
+    
 </script>
 <style>
     .box {
@@ -67,7 +82,7 @@
         <h1>Output: </h1>
         <div class = box>
             <div>
-            <ListView address = 'ws://172.16.254.5:443' subject = {name}></ListView>
+            <ListView address = 'ws://172.16.254.5:443' subject = {name} paused={false}></ListView>
             </div>
         </div>
             
