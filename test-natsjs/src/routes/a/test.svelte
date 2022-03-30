@@ -1,10 +1,10 @@
 <script>
 import { connect } from 'nats.ws';
 
-import { NatsConnectionImpl } from 'nats.ws/lib/nats-base-client/nats';
+// import { NatsConnectionImpl } from 'nats.ws/lib/nats-base-client/nats';
 
     let name = ''
-    import ListView from '../../compoents/ListView.svelte';
+//     import ListView from '../../compoents/ListView.svelte';
 
     // let nc = connect(...);
 
@@ -15,7 +15,7 @@ import { NatsConnectionImpl } from 'nats.ws/lib/nats-base-client/nats';
     //         a.push({ name: msgs.pgn, obj1: mgs.pgn })
     //     }
     // })
-    
+
 </script>
 <style>
     .box {
