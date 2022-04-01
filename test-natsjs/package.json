@@ -20,7 +20,8 @@
     "prettier-plugin-svelte": "^2.4.0",
     "simple-svelte-autocomplete": "^2.3.9",
     "svelte": "^3.44.0",
-    "svelte-leafletjs": "^0.8.2"
+    "svelte-leafletjs": "^0.8.2",
+    "svelte-toggle": "^3.1.0"
   },
   "type": "module",
   "dependencies": {

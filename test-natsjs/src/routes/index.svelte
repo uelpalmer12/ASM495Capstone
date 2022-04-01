@@ -4,8 +4,6 @@
 
   	import AutoComplete from "simple-svelte-autocomplete"
 
-	let selected = 'ws://172.16.254.5:443'
-
 
   	const IPList = [
   	{ id: 1, name: "Combine", ip: '123.24.24.23' },
