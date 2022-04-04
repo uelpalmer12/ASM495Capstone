@@ -24,11 +24,11 @@
   	{ id: 2, name: "Tractor one", ip: 'ws://172.16.254.5:443' },
   	]
     const PGNList = [
-  	{ id: 1.1, name1: "j1939", pgn1: 'j1939' },
+  	{ id: 1.1, name1: "j1939", pgn1: 'j1939.raw.' },
   	{ id: 2.1, name1: "j1939a", pgn1: 'j1939' },
 	]
     const MSGList = [
-  	{ id: 1.2, name2: "6144", msg1: '6144' },
+  	{ id: 1.2, name2: "61444", msg1: '61444' },
   	{ id: 2.2, name2: "7382828", msg1: '7382828' },
 	]
 
@@ -41,8 +41,16 @@
     let name1;
     let msg1;
     let name2;
+    let message_option;
 
     $: {
+        if(name==''){
+            message_option = pgn1+msg1;
+        }
+        else{
+            message_option = name;
+        }
+        
 		ip = selectedIP.ip
         pgn1 = selectedPGN.pgn1
         name1 = selectedPGN.name1
@@ -148,7 +156,7 @@
             <h1>Output: </h1>
             <div class = box>
                 <div>
-                <ListView address = 'ws://172.16.254.5:443' subject = {name} paused={toggled}></ListView>
+                <ListView address = {ip} subject = {message_option} paused={toggled}></ListView>
                 </div>
             </div>
         </div>
