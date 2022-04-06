@@ -3,6 +3,7 @@
 
 	export let address = '';
 	export let subject = '';
+	export let paused = false;
 
 	let messages = []
 	let nc;
@@ -11,6 +12,7 @@
 		if (nc) {
 			nc.close();
 		}
+
 
 		// Required step 1
 		// NOTE: This should be moved so it only happens once ... I can help later when your ready.
@@ -28,7 +30,7 @@
 
 		// Required step 3
 		for await (const m of s) {
-			if (!pauased) {
+			if (!paused) {
 				let msg = jc.decode(m.data);
 
 				if (messages.length > 100) {
@@ -38,7 +40,7 @@
 			}
 		}
 	}
-
+ 
 	$: connect2(address).then((nc) => subscribe(nc, subject))
 </script>
 

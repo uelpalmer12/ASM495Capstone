@@ -8,10 +8,15 @@
 	let units;
 	let nc;
 	
-	async function doWork() {
+	async function doWork(address, subject) {
+		if(!address || !subject) {
+			return;
+		}
+
 		if (nc) {
 			nc.close();
 		}
+
 
 		// Required step 1
 		// NOTE: This should be moved so it only happens once ... I can help later when your ready.
@@ -41,7 +46,10 @@
 		}
 	}
 
-	doWork();
+	$: doWork(address, subject);
 </script>
-
+{#if value}
 <p>{value} {units}</p>
+{:else}
+?
+{/if}
