@@ -4,19 +4,17 @@
 
   	import AutoComplete from "simple-svelte-autocomplete"
 
-	let selected = 'ws://172.16.254.5:443'
-
 
   	const IPList = [
   	{ id: 1, name: "Combine", ip: '123.24.24.23' },
   	{ id: 2, name: "Tractor one", ip: 'ws://172.16.254.5:443' },
   	]
 	const ObjectListOne = [
-  	{ id: 1.1, name1: "Engine Fuel Rate", obj1: 'j1939.data.EngFuelRate' },
-  	{ id: 2.1, name1: "Engine Speed", obj1: 'j1939.data.EngSpeed' },
-	{ id: 3.1, name1: "Nav Based Vehicle Speed", obj1: 'j1939.data.NavigationBasedVehicleSpeed' },
-	{ id: 3.1, name1: "Joystick", obj1: 'j1939.data.Joystick2Button9PressedStatus' },
-	{ id: 3.1, name1: "Wheel Based Vehicle Speed", obj1: 'j1939.data.WheelBasedVehicleSpeed' },
+  	{ id: 1.1, name1: "Engine Fuel Rate", obj1: 'j1939.filter.EngFuelRate' },
+  	{ id: 2.1, name1: "Engine Speed", obj1: 'j1939.filter.EngSpeed' },
+	{ id: 3.1, name1: "Nav Based Vehicle Speed", obj1: 'j1939.filter.NavigationBasedVehicleSpeed' },
+	{ id: 3.1, name1: "Joystick", obj1: 'j1939.filter.Joystick2Button9PressedStatus' },
+	{ id: 3.1, name1: "Wheel Based Vehicle Speed", obj1: 'j1939.filter.WheelBasedVehicleSpeed' },
 	]
 
   	let selectedIP = IPList[1];

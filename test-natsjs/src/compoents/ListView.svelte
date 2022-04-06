@@ -40,7 +40,7 @@
 			}
 		}
 	}
-
+ 
 	$: connect2(address).then((nc) => subscribe(nc, subject))
 </script>
 
