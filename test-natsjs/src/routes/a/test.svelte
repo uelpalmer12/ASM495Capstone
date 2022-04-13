@@ -8,17 +8,11 @@
     import Toggle from "svelte-toggle";
 
     let toggled;
+ 
 
 
-    // let nc;
 
-    // let a = [];
 
-    // nc.req('j1939.messages', function(msgs) => {
-    //     for msg in msgs {
-    //         a.push({ name: msgs.pgn, obj1: mgs.pgn })
-    //     }
-    // })
     const IPList = [
   	{ id: 1, name: "Combine", ip: '123.24.24.23' },
   	{ id: 2, name: "Tractor one", ip: 'ws://172.16.254.5:443' },

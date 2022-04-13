@@ -41,7 +41,7 @@
 			lastTime = msg.time;
 
 			
-			value = msg.value.toFixed(2); 
+			value = (msg.sumVal/msg.number).toFixed(2); 
 			units = msg.units;
 		}
 	}

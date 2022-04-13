@@ -8,7 +8,7 @@
 	export let address = 'ws://172.16.254.5:443';
 	export let subject =  'gps.TPV';
 	export let paused = false;
-
+ 
 	let msg={};
 	let messages = []
 	let nc;
