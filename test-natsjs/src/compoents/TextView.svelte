@@ -35,10 +35,10 @@
 		for await (const m of s) {
 			let msg = jc.decode(m.data);
 
-			if (msg.time <= lastTime + 0.5) {
-				continue;
-			}
-			lastTime = msg.time;
+			// if (msg.time <= lastTime + 0.5) {
+			// 	continue;
+			// }
+			// lastTime = msg.time;
 
 			
 			value = (msg.sumVal/msg.number).toFixed(2); 

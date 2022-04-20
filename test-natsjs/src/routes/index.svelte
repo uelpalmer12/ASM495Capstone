@@ -86,7 +86,7 @@
 	let ObjectListOne = [
   	{ id: 1.1, name1: "Engine Fuel Rate", obj1: 'j1939.filter.EngFuelRate' },
 	{ id: 2.1, name1: "Engine Speed", obj1: 'j1939.filter.EngSpeed' },
-	{ id: 3.1, name1: "Nav Based Vehicle Speed", obj1: 'j1939.filter.NavigationBasedVehicleSpeed' },
+	{ id: 3.1, name1: "Throttle Position %", obj1: 'j1939.filter.AccelPedalPos1' },
 	{ id: 3.1, name1: "Engine Total Fuel Used", obj1: 'j1939.filter.EngTotalFuelUsed' },
 	{ id: 3.1, name1: "Engine Percent Load at Current Speed", obj1: 'j1939.filter.EngPercentLoadAtCurrentSpeed' },
 	{ id: 3.1, name1: "Actual Engine Percent Torqued", obj1: 'j1939.filter.ActualEngPercentTorque' }
