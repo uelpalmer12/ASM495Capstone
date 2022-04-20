@@ -120,9 +120,10 @@ const tileLayerOptions = {
 	<div class="map">
 		<LeafletMap options={mapOptions}>
 			<TileLayer url={tileUrl} options={tileLayerOptions}/>
-			{#if  msg.lat == 0 && msg.lon == 0}
+			{#if  msg.lat == 0 || msg.lon == 0 || msg.lat === undefined || msg.lon === undefined }
 			return null;
 			{:else}
+			{console.log([msg.lat, msg.lon])}
 			<Marker latLng={[msg.lat, msg.lon]}/>	
 			{/if}
 
