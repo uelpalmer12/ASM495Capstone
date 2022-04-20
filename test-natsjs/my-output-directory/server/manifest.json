@@ -1,0 +1,82 @@
+{
+  ".svelte-kit/build/index.js": {
+    "file": "index.js",
+    "src": ".svelte-kit/build/index.js",
+    "isEntry": true,
+    "imports": [
+      "_index-f61de1dc.js"
+    ],
+    "dynamicImports": [
+      "src/hooks.js"
+    ]
+  },
+  ".svelte-kit/runtime/components/layout.svelte": {
+    "file": "entries/fallbacks/layout.svelte.js",
+    "src": ".svelte-kit/runtime/components/layout.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-f61de1dc.js"
+    ]
+  },
+  ".svelte-kit/runtime/components/error.svelte": {
+    "file": "entries/fallbacks/error.svelte.js",
+    "src": ".svelte-kit/runtime/components/error.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-f61de1dc.js"
+    ]
+  },
+  "src/routes/a/gps.svelte": {
+    "file": "entries/pages/a/gps.svelte.js",
+    "src": "src/routes/a/gps.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-f61de1dc.js",
+      "_SimpleAutocomplete-26851c59.js"
+    ],
+    "css": [
+      "assets/entries/pages/a/gps.svelte-6853f701.css"
+    ]
+  },
+  "src/routes/a/test.svelte": {
+    "file": "entries/pages/a/test.svelte.js",
+    "src": "src/routes/a/test.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-f61de1dc.js",
+      "_SimpleAutocomplete-26851c59.js"
+    ],
+    "css": [
+      "assets/entries/pages/a/test.svelte-a1cfe7cf.css"
+    ]
+  },
+  "src/routes/index.svelte": {
+    "file": "entries/pages/index.svelte.js",
+    "src": "src/routes/index.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-f61de1dc.js",
+      "_SimpleAutocomplete-26851c59.js"
+    ],
+    "css": [
+      "assets/entries/pages/index.svelte-5aa5b259.css"
+    ]
+  },
+  "_index-f61de1dc.js": {
+    "file": "chunks/index-f61de1dc.js"
+  },
+  "_SimpleAutocomplete-26851c59.js": {
+    "file": "chunks/SimpleAutocomplete-26851c59.js",
+    "imports": [
+      "_index-f61de1dc.js"
+    ],
+    "css": [
+      "assets/SimpleAutocomplete-5ea4dfae.css"
+    ]
+  },
+  "src/hooks.js": {
+    "file": "chunks/hooks-44838075.js",
+    "src": "src/hooks.js",
+    "isDynamicEntry": true
+  }
+}

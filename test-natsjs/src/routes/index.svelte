@@ -79,13 +79,14 @@
 	}
 
   	const IPList = [
-  	{ id: 1, name: "Combine", ip: '123.24.24.23' },
-  	{ id: 2, name: "Tractor one", ip: 'ws://172.16.254.5:443' },
+	{ id: 1, name: "Skid Steer Local", ip: 'ws://192.168.10.1:443' },
+  	{ id: 2, name: "Skid Steer Remote", ip: 'ws://172.16.1.12:443' },
+	{ id: 3, name: "Tractor one", ip: 'ws://172.16.254.5:443' },
   	]
 	let ObjectListOne = [
   	{ id: 1.1, name1: "Engine Fuel Rate", obj1: 'j1939.filter.EngFuelRate' },
 	{ id: 2.1, name1: "Engine Speed", obj1: 'j1939.filter.EngSpeed' },
-	{ id: 3.1, name1: "Nav Based Vehicle Speed", obj1: 'j1939.filter.NavigationBasedVehicleSpeed' },
+	{ id: 3.1, name1: "Throttle Position %", obj1: 'j1939.filter.AccelPedalPos1' },
 	{ id: 3.1, name1: "Engine Total Fuel Used", obj1: 'j1939.filter.EngTotalFuelUsed' },
 	{ id: 3.1, name1: "Engine Percent Load at Current Speed", obj1: 'j1939.filter.EngPercentLoadAtCurrentSpeed' },
 	{ id: 3.1, name1: "Actual Engine Percent Torqued", obj1: 'j1939.filter.ActualEngPercentTorque' }
