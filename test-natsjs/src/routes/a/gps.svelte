@@ -15,8 +15,9 @@
 	let name = '';
 
 	const IPList = [
-  	{ id: 1, name: "Combine", ip: '123.24.24.23' },
-  	{ id: 2, name: "Tractor one", ip: 'ws://172.16.254.5:443' },
+	{ id: 1, name: "Skid Steer Local", ip: 'ws://192.168.10.1:443' },
+  	{ id: 2, name: "Skid Steer Remote", ip: 'ws://172.16.1.12:443' },
+	{ id: 3, name: "Tractor one", ip: 'ws://172.16.254.5:443' },
   	]
 
 	
